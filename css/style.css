@@ -1,0 +1,90 @@
+body {
+ font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration:none;
+  color:#ADB3CC;
+}
+.masthead{
+   background: #000059 url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=99451809786f5c6a94f74f20e7ad22a0");
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#4E757B;
+  text-shadow: 0px 3px 0px #090C35;
+}
+h2, h3 {
+  color:#234567;
+}
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align:center;
+}
+.masthead {
+  padding: 6em 0;
+}
+.masthead-intro {
+  margin-bottom:0.1em;
+  font-size:2em;
+  color: #c3c3c3;
+}
+.masthead-heading {
+    margin-top: 0.2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.social > li {
+    display: inline-block;
+    width: 95px;
+}
+.content-footer > p {
+    color: white;
+	/* Layout Declarations */
+  margin-bottom:0em;
+	padding: 0;
+}
+.content-footer {
+  background-color: #25353C;
+  padding:1em 0em 2em 0em;
+  margin:4em 0em 0em 0em;
+}
+  
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.introduction-section p > strong,
+.location-section p > strong {
+  color:#234567;
+  font-family:arial;
+}
+.questions-section > h2,
+.questions-section > h3 {
+    font-weight: bold;
+}
+.introduction-section > h2,
+.location-section > h2,
+.questions-section > h2 {
+  font-size:2em;
+}
+@media only screen and (max-width: 500px) {
+ .masthead {
+    padding: 3em 0;
+ }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
